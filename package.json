@@ -5,6 +5,7 @@
   "main": "./index.js",
   "types": "./index.d.ts",
   "scripts": {
+    "postinstall": "git submodule update --init --recursive",
     "link": "@darron1217/react-native-background-geolocation/scripts/postlink.js",
     "unlink": "@darron1217/react-native-background-geolocation/scripts/postunlink.js",
     "test": "echo \"Error: no test specified\" && exit 1"
