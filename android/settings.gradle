@@ -1,3 +1,1 @@
 include ':lib'
-include ':@darron1217_react-native-background-geolocation-common'
-project(':@darron1217_react-native-background-geolocation-common').projectDir = new File(rootProject.projectDir, './common')
